@@ -1,0 +1,53 @@
+body {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+}
+table, .internal-table {
+  border-collapse: collapse;
+}
+table.internal-table {
+  width: 33px;
+}
+td {
+  border: 1px solid black;
+}
+div {
+  border: 1px solid black;
+  display: inline-block;
+}
+.col-name{
+  width: 10px;
+}
+.col-name-bold, .period, .element-row {
+  font-weight: bold;
+}
+
+td.element {
+  width: 60px;
+}
+
+.element-shortname {
+  font-size: 25px;
+  margin-top: 10px;
+
+}
+
+.element-fullname {
+  font-size: 10px;
+}
+
+.atomic-weight {
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.number-of-electron, .energy-levels {
+  font-weight: normal;
+  font-size: 7px;
+  text-align: center;
+  vertical-align: bottom;
+  width: 5px;
+}
+.element-number {
+  text-align: right;
+}
